@@ -5,7 +5,7 @@ document.getElementById("chat-form").addEventListener("submit", async (e) => {
     const chatBox = document.getElementById("chat-box");  
     chatBox.innerHTML += `<div class="user-message">${userMessage}</div>`; 
  
-    const response = await fetch("https://ai-chatbot-memory-343r.onrender.com/", { 
+    const response = await fetch("https://ai-chatbot-memory-343r.onrender.com/chat", { 
         method: 'POST', 
         headers: { 
             'Content-Type': 'application/json', 
