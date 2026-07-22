@@ -12,7 +12,7 @@ document.getElementById("chat-form").addEventListener("submit", async (e) => {
         }, 
         body: JSON.stringify({ 
             message: userMessage, 
-            conversation_id:  "001a"
+            conversation_id: "001a"
 
         }) 
     }); 
