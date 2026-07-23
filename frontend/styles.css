@@ -26,8 +26,10 @@ body {
 } */
 #chat-container {
   width: min(420px, 95vw);
-  height: 90vh;
+  height: 90vh;          /* 90% of screen height */
   max-height: 700px;
+  min-height: 400px;
+
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 0 50px grey;
